@@ -30,6 +30,7 @@ async function seedDatabase() {
     await mongoose.connection.close()
 
     console.log('🤖 Goodbye!')
+    console.log('deployed fam')
 
   } catch (err) {
     console.log('🤖 Something went wrong with seeding!')
