@@ -15,10 +15,10 @@ Hack-a-Snack is a full-stack application which operates as an online recipe coll
 * Be deployed online so it's publicly accessible.
 * Have automated tests for at least one RESTful resource on the back-end.
 * Work in a team, using git to code collaboratively.
-* A link to your hosted working app in the URL section of your GitHub repo
+* A link to your hosted working app in the URL section of your GitHub repo.
 * A git repository hosted on GitHub, with a link to your hosted project, and frequent commits dating back to the very beginning of the project.
 * A working APP hosted on the Internet.
-* Timeframe: one week
+* Timeframe: one week.
 
 ### Team 🚀:
 * Fabien Depasse : https://github.com/fdepasse
@@ -83,13 +83,13 @@ Hack-a-Snack is a full-stack application which operates as an online recipe coll
 
 ### Functionality
 Hack-a-snack works much in the same way as other online recipe directories, users can:
-Register & login
-View a collection of recipes
-View a single recipe and save it to their collection
-View own recipe collection including posted and saved
-View other users' profiles
-Post, edit and delete a recipe
-Post and delete a recipe review
+* Register & login
+* View a collection of recipes
+* View a single recipe and save it to their collection
+* View own recipe collection including posted and saved
+* View other users' profiles
+* Post, edit and delete a recipe
+* Post and delete a recipe review
 
 ## Process
 ### Planning
@@ -141,7 +141,7 @@ async function updateRecipe(req, res, next) {
 The updateRecipe function finds the recipe to update using client request, performs some checks: 
 * The recipe id provided exists in the database
 * The user is the person that created the recipe or is an admin user
-It then updates the recipe using the json body request, saves the new entry to the database and sends the updated recipe back to the user. 
+* It then updates the recipe using the json body request, saves the new entry to the database and sends the updated recipe back to the user. 
 
 ### Frontend
 Once the backend was sufficiently tested we moved on to the front end and set up each page as a React component. We divided the components amongst ourselves to build out functionality and basic design. We checked in to discuss any blockers that arose and solved as a team in order to progress as quickly as possible.
@@ -188,13 +188,13 @@ export default function myAccount({ match }) {
         </Slider>
 ```
 ### Known bugs and errors
-When a user views a recipe they’ve previously saved the toggle doesn’t show as “on” 
-When posting a recipe review the user needs to select a rating after they’ve written the text
+* When a user views a recipe they’ve previously saved the toggle doesn’t show as “on” 
+* When posting a recipe review the user needs to select a rating after they’ve written the text
 ## Future Features
-Refactor code to include a carousel component that can be easily reused and updated dynamically
-A community social feed to display users’ recently posted recipes
+* Refactor code to include a carousel component that can be easily reused and updated dynamically
+* A community social feed to display users’ recently posted recipes
 
 ## Key Learnings 
-Using Git branching to share a common codebase and create features independently had a great impact on the efficiency of the build. 
-Reading documentation thoroughly, especially when using a new language or library, was super beneficial. It really helped with my understanding of Mongoose and React including interactions with other languages and debugging. 
-Planning stages really helped to conceptualise the project and gave a clear timeline for delivery. 
+* Using Git branching to share a common codebase and create features independently had a great impact on the efficiency of the build. 
+* Reading documentation thoroughly, especially when using a new language or library, was super beneficial. It really helped with my understanding of Mongoose and React including interactions with other languages and debugging. 
+* Planning stages really helped to conceptualise the project and gave a clear timeline for delivery. 
