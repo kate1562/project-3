@@ -85,13 +85,13 @@ We used Canva to whiteboard initial ideas and plan the backend MVC, Google Slide
 
 ### Functionality
 Hack-a-snack works much in the same way as other online recipe directories, users can:
-* Register & login
-* View a collection of recipes
-* View a single recipe and save it to their collection
-* View own recipe collection including posted and saved
-* View other users' profiles
-* Post, edit and delete a recipe
-* Post and delete a recipe review
+* Register & login.
+* View a collection of recipes.
+* View a single recipe and save it to their collection.
+* View own recipe collection including posted and saved.
+* View other users' profiles.
+* Post, edit and delete a recipe.
+* Post and delete a recipe review.
 
 ## Process
 ### Planning
@@ -141,8 +141,8 @@ async function updateRecipe(req, res, next) {
 }
 ```
 The updateRecipe function finds the recipe to update using client request, performs some checks: 
-* The recipe id provided exists in the database
-* The user is the person that created the recipe or is an admin user
+* The recipe id provided exists in the database.
+* The user is the person that created the recipe or is an admin user.
 * It then updates the recipe using the json body request, saves the new entry to the database and sends the updated recipe back to the user. 
 
 ### Frontend
@@ -190,11 +190,12 @@ export default function myAccount({ match }) {
         </Slider>
 ```
 ### Known bugs and errors
-* When a user views a recipe they’ve previously saved the toggle doesn’t show as “on” 
-* When posting a recipe review the user needs to select a rating after they’ve written the text
+* When a user views a recipe they’ve previously saved the toggle doesn’t show as “on”. 
+* When posting a recipe review the user needs to select a rating after they’ve written the text.
+
 ## Future Features
-* Refactor code to include a carousel component that can be easily reused and updated dynamically
-* A community social feed to display users’ recently posted recipes
+* Refactor code to include a carousel component that can be easily reused and updated dynamically.
+* A community social feed to display users’ recently posted recipes.
 
 ## Key Learnings 
 * Using Git branching to share a common codebase and create features independently had a great impact on the efficiency of the build. 
