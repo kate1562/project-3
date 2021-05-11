@@ -1,9 +1,11 @@
 # Hack-a-snack GA Project 3 
 ## Overview
 
-The third project for General Assembly's Software Engineering Immersive course, a full stack MERN app built using the Edamam API to seed initial data and deployed on Heroku. Hack-a-Snack operates as an online recipe collection, users can browse a recipe database, post their own recipes, comment on others’ posts and browse community profiles. An external API was used to provide the starting content, with the aim of encouraging users to post their own content and grow the database. 
+The third project for General Assembly's Software Engineering Immersive course, a full stack MERN app built with React JS, Node.js, Express, Mongoose and talking to a NoSQL MongoDB database. The Edamam API was used to seed initial data and it was deployed via Heroku. 
 
-We used Canva to whiteboard initial ideas and plan the backend MVC, Google Slides was utilised to create a clickthrough wireframe. I was responsible for building the recipes backend and the user profile frontend which made use of React Slick slider library.
+The site operates as an online recipe collection, users can browse a recipe database, post their own recipes, comment on others’ posts and browse community profiles. The Edamam API was used to provide the starting content, with the aim of encouraging users to post their own content and grow the database. 
+
+Canva was used to whiteboard initial ideas and plan the backend MVC, Google Slides was utilised to create a clickthrough wireframe. I was responsible for building the recipes backend and the user profile frontend which made use of React Slick slider library.
 
 🔗 http://hack-a-snack-project.herokuapp.com/
 
