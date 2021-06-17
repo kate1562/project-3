@@ -12,6 +12,10 @@ Canva was used to whiteboard initial ideas and plan the backend MVC, Google Slid
 
 🔗 http://hack-a-snack-project.herokuapp.com/
 
+## Demo
+![hackasnack](https://user-images.githubusercontent.com/68645584/122402093-15df2180-cf75-11eb-8748-1a87eeca24b5.gif)
+
+
 ## Brief & Timeframe:
 * Build a full-stack application by making your own backend and your own front-end.
 * Use an Express API to serve your data from a Mongo database.
